@@ -1,0 +1,240 @@
+:root {
+  --primary-color: #000000;
+  --background-color: #f8f1e9;
+}
+
+.list {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+.link {
+  text-decoration: none;
+  color: var(--primary-color);
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p {
+  margin-top: 0;
+  margin-bottom: 0;
+}
+
+ul {
+  margin-top: 0;
+  margin-bottom: 0;
+  padding-left: 0;
+}
+
+img {
+  display: block;
+}
+body {
+  background-color: var(--background-color);
+  color: var(--primary-color);
+  font-family: 'Spartan', sans-serif;
+  font-size: 14px;
+  text-transform: uppercase;
+}
+
+/* =============COMPONENTS============= */
+
+.container {
+  width: 1016px;
+  margin: 0 auto;
+  padding-left: 15px;
+  padding-right: 15px;
+}
+
+.header-top-box,
+.nav,
+.gallery-navigation-box {
+  width: 1166px;
+  margin: 0 auto;
+  padding-left: 15px;
+  padding-right: 15px;
+}
+
+.product-container {
+  padding: 16px 0 16px 39px;
+  border: 1px solid rgba(102, 102, 102, 0.2);
+  border-bottom-right-radius: 4px;
+  border-bottom-left-radius: 4px;
+  border-top: none;
+}
+.product-title {
+  margin-bottom: 10px;
+
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 1.14;
+}
+.product-price {
+  line-height: 1.14;
+}
+/* =============HEADER============= */
+
+.header-top-box,
+.nav,
+.nav-list,
+.nav-buttons {
+  display: flex;
+  align-items: center;
+}
+
+.header-top-box {
+  padding-top: 8px;
+  padding-bottom: 8px;
+}
+
+.header-top-text {
+  font-weight: 500;
+  font-size: 12px;
+  line-height: 1.08;
+
+  margin-right: auto;
+}
+.header-top-link:not(:last-child) {
+  margin-right: 42px;
+}
+
+.nav {
+  padding-top: 35px;
+  padding-bottom: 35px;
+}
+.logo {
+  margin-right: 280px;
+}
+
+.nav-list-text {
+  font-weight: 300;
+  font-size: 18px;
+  line-height: 1.11;
+}
+.nav-list-item:hover {
+  text-decoration: underline;
+}
+
+.nav-list-item:not(:last-child) {
+  margin-right: 49px;
+}
+
+.header-bottom-box {
+  border-top: 1px solid rgba(102, 102, 102, 0.2);
+  border-bottom: 1px solid rgba(102, 102, 102, 0.2);
+}
+.nav-buttons {
+  margin-left: auto;
+}
+
+.nav-buttons li:not(:last-child) {
+  margin-right: 39px;
+}
+
+/* =============HEADER END============= */
+
+/* =============MAIN CONTENT============= */
+/* -------------- gallery -------------- */
+
+.gallery {
+  padding-bottom: 65px;
+}
+.gallery-title {
+  font-family: Prata, serif;
+  font-size: 114px;
+  line-height: 1.35;
+  text-align: center;
+  position: relative;
+  margin-bottom: -106px;
+}
+.gallery-list {
+  display: flex;
+  flex-wrap: wrap;
+  margin-top: -19px;
+  margin-left: -19px;
+}
+.gallery-item {
+  margin-top: 19px;
+  margin-left: 19px;
+}
+.gallery-navigation {
+  padding-top: 35px;
+  padding-bottom: 50px;
+}
+.gallery-navigation-bottom {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 50px;
+}
+.gallery-navigation-title {
+  font-weight: 500;
+  font-size: 12px;
+  line-height: 13px;
+
+  color: rgba(149, 143, 143, 0.83);
+}
+
+/* -------------- end gallery -------------- */
+
+/* -------------- your-style -------------- */
+
+.your-style {
+  padding-top: 65px;
+  padding-bottom: 65px;
+}
+
+.your-style-box {
+  display: flex;
+  align-items: center;
+}
+.your-style-title {
+  font-weight: 700;
+  font-size: 24px;
+  line-height: 27px;
+  margin-bottom: 18px;
+}
+
+.your-style-text {
+  font-size: 12px;
+  line-height: 1.41;
+  text-transform: none;
+}
+
+.your-style-description {
+  margin-left: 50px;
+}
+/* -------------- end your-style -------------- */
+
+/* -------------- special -------------- */
+
+.special {
+  padding-top: 65px;
+  padding-bottom: 100px;
+}
+.special-title {
+  font-family: Prata;
+  font-size: 64px;
+  line-height: 1.36;
+  text-align: center;
+
+  position: relative;
+  margin-bottom: -35px;
+}
+
+.special-list {
+  display: flex;
+  justify-content: space-between;
+}
+
+/* -------------- end special -------------- */
+
+/* =============END MAIN CONTENT============= */
+
+/* =============FOOTER============= */
+
+/* =============END FOOTER============= */
