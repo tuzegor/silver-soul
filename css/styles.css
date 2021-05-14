@@ -238,5 +238,9 @@ body {
 /* =============END MAIN CONTENT============= */
 
 /* =============FOOTER============= */
+.footer {
+  padding-top: 50;
+  padding-bottom: 50;
+}
 
 /* =============END FOOTER============= */
