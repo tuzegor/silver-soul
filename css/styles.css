@@ -73,7 +73,10 @@ body {
   margin-bottom: 10px;
   font-size: 14px;
 }
-
+.action:focus,
+.action:hover {
+  text-decoration: underline;
+}
 /* =============HEADER============= */
 
 .header-top-box,
@@ -112,9 +115,6 @@ body {
   font-weight: 300;
   font-size: 18px;
   line-height: 1.11;
-}
-.nav-list-item:hover {
-  text-decoration: underline;
 }
 
 .nav-list-item:not(:last-child) {
