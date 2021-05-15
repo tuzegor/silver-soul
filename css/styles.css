@@ -267,6 +267,7 @@ body {
 
 .footer-aside-box {
   align-items: center;
+  padding-bottom: 10px;
   border-bottom: 1px solid rgba(102, 102, 102, 0.3);
 }
 .footer-aside {
