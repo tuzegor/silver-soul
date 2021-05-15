@@ -1,6 +1,7 @@
 :root {
   --primary-color: #000000;
   --background-color: #f8f1e9;
+  --border-color: rgba(75, 75, 75, 0.3);
 }
 
 .list {
@@ -37,8 +38,10 @@ img {
 body {
   background-color: var(--background-color);
   color: var(--primary-color);
+
   font-family: 'Spartan', sans-serif;
   font-size: 14px;
+  line-height: 1.14;
   text-transform: uppercase;
 }
 
@@ -62,20 +65,14 @@ body {
 
 .product-container {
   padding: 16px 0 16px 39px;
-  border: 1px solid rgba(102, 102, 102, 0.2);
+  border: 1px solid var(--border-color);
   border-bottom-right-radius: 4px;
   border-bottom-left-radius: 4px;
   border-top: none;
 }
 .product-title {
   margin-bottom: 10px;
-
-  font-weight: 700;
   font-size: 14px;
-  line-height: 1.14;
-}
-.product-price {
-  line-height: 1.14;
 }
 /* =============HEADER============= */
 
@@ -125,8 +122,8 @@ body {
 }
 
 .header-bottom-box {
-  border-top: 1px solid rgba(102, 102, 102, 0.2);
-  border-bottom: 1px solid rgba(102, 102, 102, 0.2);
+  border-top: 1px solid var(--border-color);
+  border-bottom: 1px solid var(--border-color);
 }
 .nav-buttons {
   margin-left: auto;
@@ -239,8 +236,64 @@ body {
 
 /* =============FOOTER============= */
 .footer {
-  padding-top: 50;
-  padding-bottom: 50;
+  padding-top: 50px;
+  padding-bottom: 50px;
 }
 
+.advantages-list,
+.footer-list,
+.footer-aside-box {
+  display: flex;
+  justify-content: space-between;
+}
+
+.advantages-list {
+  display: flex;
+  justify-content: space-between;
+  text-align: center;
+  margin-left: -40px;
+  margin-right: -40px;
+  margin-bottom: 100px;
+}
+
+.footer-title {
+  font-family: Prata;
+  font-weight: 400;
+  font-size: 48px;
+  line-height: 1.35;
+  text-align: center;
+  margin-bottom: 50px;
+}
+
+.footer-aside-box {
+  align-items: center;
+  border-bottom: 1px solid rgba(102, 102, 102, 0.3);
+}
+.footer-aside {
+  align-items: center;
+  padding-left: 40px;
+  padding-right: 40px;
+  margin-bottom: 100px;
+}
+
+.footer-aside-text {
+  font-weight: 500;
+  opacity: 0.3;
+  text-transform: none;
+}
+.footer-item-title {
+  font-weight: 500;
+  font-size: 14px;
+}
+
+.footer-list-item > a {
+  text-transform: none;
+  display: block;
+  margin-top: 11px;
+}
+
+.footer-license {
+  margin-top: 100px;
+  text-align: center;
+}
 /* =============END FOOTER============= */
