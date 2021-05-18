@@ -89,6 +89,10 @@ body {
   align-items: center;
 }
 
+.nav-list {
+  flex-wrap: wrap;
+}
+
 .header-top-box {
   padding-top: 8px;
   padding-bottom: 8px;
@@ -110,7 +114,7 @@ body {
   padding-bottom: 35px;
 }
 .logo {
-  margin-right: 280px;
+  margin-right: 25.3%;
 }
 
 .nav-list-text {
