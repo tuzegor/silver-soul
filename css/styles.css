@@ -147,14 +147,20 @@ body {
 .gallery {
   padding-bottom: 65px;
 }
+.gallery-box {
+  position: relative;
+}
 .gallery-title {
+  position: absolute;
+  width: 100%;
+
+  text-align: center;
+  top: -63px;
+
   font-family: Prata, serif;
   font-size: 114px;
   line-height: 1.35;
   font-weight: 400;
-  text-align: center;
-  position: relative;
-  margin-bottom: -106px;
 }
 .gallery-list {
   display: flex;
@@ -169,6 +175,7 @@ body {
 .gallery-navigation {
   padding-top: 35px;
   padding-bottom: 50px;
+  margin-bottom: 50px;
 }
 .gallery-navigation-bottom {
   display: flex;
@@ -211,6 +218,7 @@ body {
 }
 
 .your-style-description {
+  max-width: 387px;
   margin-left: 50px;
 }
 /* -------------- end your-style -------------- */
@@ -222,14 +230,14 @@ body {
   padding-bottom: 100px;
 }
 .special-title {
+  position: relative;
+  margin-bottom: -35px;
+
   font-family: Prata;
   font-size: 64px;
   line-height: 1.36;
   text-align: center;
   font-weight: 400;
-
-  position: relative;
-  margin-bottom: -35px;
 }
 
 .special-list {
